@@ -1,0 +1,46 @@
+extends base.pug 
+
+block scripts 
+  script(src="/static/index.js")
+
+block style 
+    style 
+      include ../static/style.css 
+
+block content
+    section#introSection 
+          div  Welcome TO Ak Dance Academy
+          div.small Eat Sleep Dance Repeat  
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d1.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d2.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d3.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsorsSection 
+          h1 Our Sponsors
+          div#sponsors 
+               img(src="/static/img/urlbg.jpg", alt="Sponsors Image",Class="spImage")
+               img(src="/static/img/gatibg.png", alt="Sponsors Image",Class="spImage")
+               img(src="/static/img/dhlbg.png", alt="Sponsors Image",Class="spImage")
+               img(src="/static/img/dtdcbg.jpg", alt="Sponsors Image",Class="spImage")      

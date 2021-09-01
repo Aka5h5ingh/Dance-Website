@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: azure;
+    align-items: center;
+    margin: 2px 14px;
+    font-size:23px;
+    margin-right: 40px;
+
+}
+
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: black;
+    padding: 7PX 5PX;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+#navbar li{
+    list-style: none ;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 31px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color:red;
+
+}
+
+
+
+#introSection{
+    padding-bottom: 40px;
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/dcbg.jpg");
+    opacity: 0.9;
+    height: 710px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(187, 42, 42);
+}
+
+#sponsorsSection h1{
+    font-family: 'Courgette', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#missionSection  {
+    height: 350px;
+    margin:auto;
+    width: 75%;
+    /* background-color: tomato; */
+
+}
+
+#missionSection h2{
+    font-family: 'Courgette', cursive;
+    color: rgb(31, 30, 30);
+    text-align: center;
+    padding-top: 3px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 210px;
+    display: inline-block;
+    
+
+}
+.card h3{
+    margin: 25px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+   height: 95px; 
+   padding: 0px 14px;
+   margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 23px;
+}
+
+.card-content p{
+    font-size: 18px;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin:auto
+}
+.spImage{
+    height: 150px;
+    margin: 20px;
+    
+}
+
+#footer{
+    display: flex;
+    color: rgb(248, 245, 245);
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
